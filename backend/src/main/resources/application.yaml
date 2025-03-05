@@ -1,0 +1,7 @@
+server:
+  port: 85
+spring:
+  application:
+    name: backend
+  profiles:
+    active: @spring.profiles.active@
